@@ -1,0 +1,161 @@
+.header{
+	width:100%;
+	height:60px;
+	background-color:#333;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+body{
+	padding:0;
+	margin:0;
+}
+.header #logo{
+	float:left;
+	height:40px;
+	width:120px;
+	margin:10px 0 10px 40px;
+	background-image:url(bd_logo.png);
+}
+
+.nav a{
+	float:right;
+	padding:5px;
+	margin:20px 10px 20px 0;
+	vertical-align:middle;
+	color:white;
+}
+
+.wrap{
+	background-color:#ccc;
+	margin:0px;
+	padding:0px;
+	font-family:'Î¢ÈíÑÅºÚ';
+}
+.content{
+	background-color:white;
+	margin:20px;
+	padding:30px 20px;
+	border-bottom:2px solid #666;
+	border-right:2px solid #666;
+	line-height:150%;
+	
+}
+.picture{
+	border:1px solid gray;
+	padding:5px;
+	margin:10px auto 5px 0;
+	text-align:center;
+	line-height:50%;
+	font-size:12px;
+	width:120px;
+	height:110px;
+	
+}
+.author{
+	font-size:18px;
+}
+#order{
+	margin:0 auto 0 30px;
+	font-weight:bold;
+}
+
+.indent{
+	text-indent: 2em;
+}
+.p_bold{
+	font-weight:bold;
+	border-left:4px solid #ccc;
+	padding-left:10px;
+}
+
+#form{
+	margin:20px auto 20px 200px;
+	font-size:18px;
+}
+
+.footer{
+	background-color:black;
+	width:100%;
+	color:white;
+	height:70px;
+	text-align:center;
+	line-height:70px;
+	font-size:16px;
+	
+}
+
+.form_block{
+	display:block;
+	
+}
+table{
+	width:100%;
+	text-align:left;	
+	border-collapse:collapse;
+    border-spacing:0;
+}
+th{
+	background-color:#333;
+	color:white;
+	margin-left:0;
+	text-align:left;
+}
+td{
+	margin:0;
+	padding:0;
+}
+caption{
+	text-align:left;
+}
+#total{
+	background-color:#ccc;
+	font-weight:bold;
+}
+
+#submit{
+	background-color:blue;
+	width:100%;
+	height:40px;
+	border:0;
+	border-radius:8px;
+	color:white;
+	font-size:20px;
+}
+#form_text{
+	width:60%;
+	height:100px;
+    margin:0 auto 20px 10px;
+}
+.text{
+	position:absolute;
+}
+.form_p{
+	font-size:14px;
+	width:330px;
+	color:gray;
+	float:right;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
