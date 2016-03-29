@@ -7,21 +7,20 @@
 <body>
 <div class="wrap">
 <div class="header">
-    <div id="logo"> </div>
-
-	    <div class="nav">
+    <div id="logo"><img src="logo.png" width=120px height=60px; /></div>
+	<div class="nav">
         <a href="http://ife.baidu.com/">ife首页</a>
         <a href="http://www.baidu.com">百度一下</a>
         <a href="http://map.baidu.com/">百度地图</a>
         <a href="http://yun.baidu.com">百度云</a>
-	    </div>
+	</div>
 
 </div>
   <div class="content">
     <h2 id="title1">3.23日记</h2>
     <h3>如何开始的github</h3>
     <p class="author">叶脚 2016.3.23 20:25</p>
-    <p class="index">今天刚刚开了自己的github，是不是代表我向正式成为一个程序员越来越近了呢？昨天晚上参加了网易的笔试，对我自己来说，编程题还是做不出。今天下午去搜狐笔试，编程还是跪了，听小师弟说百度ife可以做练习，而且质量高，就赶紧来弄一下，可惜报名截止，也没有组队，虽然如此，但我觉得这是一个好的开始，对的吧~</p>
+    <p class="indent">今天刚刚开了自己的github，是不是代表我向正式成为一个程序员越来越近了呢？昨天晚上参加了网易的笔试，对我自己来说，编程题还是做不出。今天下午去搜狐笔试，编程还是跪了，听小师弟说百度ife可以做练习，而且质量高，就赶紧来弄一下，可惜报名截止，也没有组队，虽然如此，但我觉得这是一个好的开始，对的吧~</p>
     <p>听别人说，最巧到处的事情在于不言而喻，不期而遇，不治而愈，如果我看见代码的时候，不需要代码跟我解释，我就都懂了，如果在我不经意的时候看见了另一段心心念念的代码，如果我对代码笨笨的学习一次次被打击还能痊愈，那夺鸡冻啊！</p>
     <p>其实这段时间还是做了很多事情的，贴一个新建的博客地址:<a href="http://www.cnblogs.com/vvzhangw/">http://www.cnblogs.com/vvzhangw/</a> 虽然只有一篇文章，毕竟刚开始嘛~下面这个图片是双子座多肉植物，这个不是我养的，因为还没长大~</p>
 	<img src="http://g.search.alicdn.com/img/bao/uploaded/i4/i1/TB1VudsKpXXXXXAXXXXXXXXXXXX_!!0-item_pic.jpg_210x210.jpg" height="256" width="256" alt="双子座多肉植物" >
@@ -90,47 +89,44 @@
   <div class="content">
 	<p class="p_bold">这里以后是个侧栏，这是侧栏的标题</p>
 	<form id="form">
-	   <div class="email">
-			<label>请输入邮箱地址: </label>
-			    <div class="text">
-				   <input type="text" placeholder="这是一个文本输入框" name="email" />
-			       <p class="form_p">邮箱地址请按要求格式输入</p>
-				</div>
-		</div>
-		<div class="password">
-		    <label>请输入密码:</label>
-			<input type="password" name="password" maxlength="16" min="6" required="required" placeholder="这是一个文本输入框"/>
-		</div>
-		<div class="password">
-			<label>请重复输入密码:</label>
-			<div class="text">
-			   <input type="password" name="rePassword" maxlength="16" min="6" required="required" placeholder="这是一个文本输入框" />
-			   <p class="form_p">密码请为6-16位英文数字</p>
-			</div>
-		</div>
-	<div>
-		<label >性别:</label>
+	    <div><label>请输入邮箱地址</label><input type="text" placeholder="这是一个文本输入框" /></div>
+		<div><label></label><p class="inline">邮箱地址请按要求格式输入</p></div>
+		<div><label>请输入密码</label><input type="password" placeholder="这是一个文本输入框" /></div>
+		<div><label>请重复输入密码</label><input type="password" placeholder="这是一个文本输入框" /></div>
+		<div><label></label><p class="inline">密码请为6-16位英文数字</p></div>
+	   
+	  <div>
+		<label >性别</label>
 		<input name="sex" type="radio" value="man" select="select" color="blue">男</input>
-	  <input name="sex" type="radio" value="woman">女</input>
-	  <label class="form_block">城市:</label>
-	  <select name="city">
+	    <input name="sex" type="radio" value="woman">女</input>
+	  </div>
+	  
+	  <div>
+		  <label>城市</label>
+		  <select name="city">
 			<option select="select">北京</option>
 			<option>上海</option>
 			<option>广州</option>
 			<option>深圳</option>
-	   </select>
-	   <label class="form_block">爱好：</label>
+	      </select>
+	   </div>
 	   
-		<input type="checkbox" name="sport">运动
-	  <input type="checkbox" name="art">艺术
-	  <input type="checkbox" name="science">科学
-	  <span class="form_block">个人描述</span>
-	  <textarea name="description" id="form_text">这是一个多行输入框，输入您的个人描述</textarea></div>	
+	   <div>
+		  <label>爱好</label>	   
+		  <input type="checkbox" name="sport">运动
+		  <input type="checkbox" name="art">艺术
+		  <input type="checkbox" name="science">科学
+	  </div>
+	  
+	  <div>
+		  <label>个人描述</label>
+		  <textarea name="description" id="form_text">这是一个多行输入框，输入您的个人描述</textarea>
+	  </div>	
 	
-	</form>
-<input id="submit" type="submit" value="确认提交"/>
-  </div>  
-
+	 </form>
+      <div><input id="submit" type="submit" value="确认提交"/></div>
+   
+</div>  
 <div class="footer">版权所有&copy; </div>
 </div>
 </body>
