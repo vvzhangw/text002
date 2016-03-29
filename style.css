@@ -12,10 +12,7 @@ body{
 }
 .header #logo{
 	float:left;
-	height:40px;
-	width:120px;
-	margin:10px 0 10px 40px;
-	background-image:url(bd_logo.png);
+	margin:0 0 20px 40px;
 }
 
 .nav a{
@@ -85,10 +82,7 @@ body{
 	
 }
 
-.form_block{
-	display:block;
-	
-}
+
 table{
 	width:100%;
 	text-align:left;	
@@ -122,21 +116,36 @@ caption{
 	color:white;
 	font-size:20px;
 }
-#form_text{
-	width:60%;
-	height:100px;
-    margin:0 auto 20px 10px;
-}
+
 .text{
 	position:absolute;
 }
-.form_p{
-	font-size:14px;
-	width:330px;
-	color:gray;
-	float:right;
+form{
 	
 }
+form label{
+	display:inline-block;
+	width:26%;
+	text-align:right;
+	margin:10px;
+}
+.tips{
+	color:#777;
+	font-size:16px;
+}
+.inline{
+	display:inline-block;
+	color:#777;
+	font-size:16px;
+	line-height:0.5;
+}
+#form_text{
+	width:60%;
+	height:100px;
+    margin:10px auto 20px 10px;
+	vertical-align:top;
+}
+
 
 
 
